@@ -11,14 +11,14 @@ for b in open(0).readlines():
     turns = int(b.strip()[1:])
     z = 0
     if direction == 'L':
-        for c in range(0,turns):
+        for c in range(turns):
             pos -= 1
             if pos == 0 and c+1 < turns:
                 z += 1
             if pos < 0:
                 pos += 100
     else:
-        for c in range(0,turns):
+        for c in range(turns):
             pos += 1
             if pos == 100 and c+1 < turns:
                 z += 1
