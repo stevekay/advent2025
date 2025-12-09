@@ -2,7 +2,8 @@
 
 import fileinput
 
-pone = ptwo = { }
+pone = { }
+ptwo = { }
 for l in open(0).readlines():
     for r in l.split(','):
         for id in range(int(r.split('-')[0]),int(r.split('-')[1])+1):
