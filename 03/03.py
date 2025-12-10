@@ -3,7 +3,6 @@
 import fileinput
 
 partone = 0
-parttwo = 0
 
 for bank in open(0).readlines():
     bank = bank.strip()
