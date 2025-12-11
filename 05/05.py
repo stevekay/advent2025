@@ -14,10 +14,11 @@ for x in open(0).readlines():
     z = re.match(r'(\d+)$', x)
     if z:
         i = int(z.group(1))
-        fresh = 0
         for [start,end] in ranges:
             if i >= start and i <= end:
-                fresh = 1
-        partone += fresh
+                partone += 1
+                break
 
 print(partone)
+
+
