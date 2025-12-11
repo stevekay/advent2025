@@ -10,6 +10,7 @@ for l in open(0).readlines():
 
 for col in range(len(grid[0])):
     op = grid[len(grid)-1][col]
+
     t = 0
     if op == '*':
         t = 1
