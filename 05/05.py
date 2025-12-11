@@ -20,5 +20,3 @@ for x in open(0).readlines():
                 break
 
 print(partone)
-
-
